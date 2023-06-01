@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* TYPOGRAFIE */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+
+}
+
+.default-text {
+    font-weight: normal;
+}
+
+/* ALGEMEEN */
+.outer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FFCC00;
+}
+.inner-container {
+    display: flex;
+    flex-basis: 1000px;
+    flex-wrap: wrap;
+    padding: 28px;
+    gap: 16px;
+}
+
+/* HEADER */
+
+.pokemon-logo {
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button {
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    background-color: #205CAB;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+.button:disabled {
+    background-color: #919191;
+}
+
+/* MAIN */
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 176px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 8px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.abilities {
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    padding: 3px;
+    margin: 8px;
+    border-radius: 3px;
+    background-color: #eaeaea;
+}
